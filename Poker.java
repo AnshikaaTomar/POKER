@@ -2,8 +2,6 @@ package POKER;
 import java.util.*;
 import java.util.function.*;
 
-import Ranking;
-
 public class Poker {
 
     private List<Card> hand;
