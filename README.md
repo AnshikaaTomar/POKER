@@ -6,18 +6,6 @@ A Java-based poker game simulator that deals cards to multiple players, evaluate
 
 This project implements a complete poker hand evaluation system using object-oriented programming principles in Java. The game simulates dealing cards to multiple players and automatically evaluates each player's hand to determine poker rankings.
 
-## 📁 Project Structure
-
-```
-POKER/
-├── Card.java          # Card representation and deck management
-├── CardGame.java      # Main entry point
-├── Poker.java         # Individual poker hand logic
-├── PokerGame.java     # Game management and dealing
-├── Ranking.java       # Poker hand rankings enumeration
-└── README.md          # Project documentation
-```
-
 ## 🎮 Features
 
 - **Standard 52-Card Deck**: Complete deck with all suits (Clubs, Diamonds, Hearts, Spades)
@@ -103,57 +91,6 @@ Q S(10) 9 C(7) 2 H(0) Q C(10) 4 C(2) 9 D(7) J H(9) J D(9) 6 H(4) 4 H(2) 2 D(0) 1
 ...
 ```
 
-## ⚙️ Customization
-
-### Changing Game Parameters
-
-To modify the number of players or cards per hand, edit `CardGame.java`:
-
-```java
-// Current: 6 players, 5 cards each
-PokerGame fiveCards = new PokerGame(6, 5);
-
-// Example: 4 players, 7 cards each
-PokerGame sevenCards = new PokerGame(4, 7);
-```
-
-### Adding New Features
-
-The modular design allows for easy extensions:
-- Add new poker hand rankings in `Ranking.java`
-- Implement additional game rules in `PokerGame.java`
-- Extend card functionality in `Card.java`
-
-## 🛠️ Technical Details
-
-### Key Classes
-
-**Card.java**
-- Manages individual card properties
-- Provides deck generation and manipulation
-- Handles card sorting and display formatting
-
-**Poker.java**
-- Represents a single player's hand
-- Evaluates hand rankings
-- Manages card keeping and discarding logic
-
-**PokerGame.java**
-- Controls overall game flow
-- Handles card dealing mechanics
-- Manages multiple players
-
-**Ranking.java**
-- Defines poker hand hierarchy
-- Provides string representation for rankings
-
-## 🔍 Algorithm Highlights
-
-- **Hand Evaluation**: Uses frequency analysis to detect matching cards
-- **Card Sorting**: Implements custom comparators for rank-based sorting
-- **Dealing Logic**: Round-robin distribution ensures fair dealing
-- **Randomization**: Multiple shuffle and rotation steps for true randomness
-
 ## 🤝 Contributing
 
 Feel free to fork this project and submit pull requests for:
@@ -162,7 +99,7 @@ Feel free to fork this project and submit pull requests for:
 - Performance optimizations
 - Bug fixes
 
-## ps. I did this while learning hence it resembles the code form Java Masterclass on Udemy by Tim 
+### ps. I did this while learning hence it resembles the code form Java Masterclass on Udemy by Tim 
 
 ---
 
