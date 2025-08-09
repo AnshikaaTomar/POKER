@@ -99,7 +99,7 @@ Feel free to fork this project and submit pull requests for:
 - Performance optimizations
 - Bug fixes
 
-### ps. I did this while learning hence it resembles the code form Java Masterclass on Udemy by Tim 
+### ps. I did this while learning hence it resembles the code form Java Masterclass on Udemy by Tim Buchalka
 
 ---
 
